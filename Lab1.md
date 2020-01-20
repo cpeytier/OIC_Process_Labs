@@ -36,7 +36,7 @@ There are essentially three key components in OIC:
     SalesCloud, etc.) or non-Oracle (SAP, SalesForce, Google Mail, Facebook,
     EverNote, etc.)
 
--   The **Process Builder**
+-   The **Process Builder** 
 
     -   Create Workflows
 
@@ -63,7 +63,7 @@ There are essentially three key components in OIC:
 
         -   Workflow is secondary in your mind
 
->   *… then you should start with VBCS.*
+>   *â€¦ then you should start with VBCS.*
 
 -   If you can with a *Workflow* mindset, that is:
 
@@ -74,7 +74,7 @@ There are essentially three key components in OIC:
     -   Some are human tasks, others are system tasks such as integrations to
         back-end system
 
->   *… then you should start with Process…* which is what **we will focus on
+>   *â€¦ then you should start with Processâ€¦* which is what **we will focus on
 >   today.**
 
 ### Pre-requisites
@@ -106,7 +106,7 @@ Creating our first Process Application
 --------------------------------------
 
 
-Let’s start developing our first process application.
+Letâ€™s start developing our first process application.
 
 First, we are going to create our own Space, this will allow us to shield from
 other users. This is specially useful if you are sharing your OIC instance with
@@ -136,7 +136,7 @@ other participants
 >   or your initials*, particularly in the case where you work on a shared
 >   environment
 
->   If not already selected, choose **“MySpaceXX”**’ from the Space drop down
+>   If not already selected, choose **â€œMySpaceXXâ€**â€™ from the Space drop down
 >   (where XX is your student id)
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/796d3611042358c83dcf643f95d7eef4.png)
@@ -147,12 +147,12 @@ When the application has been created, you will see a screen where you can
 configure a variety of choices. This is for business users who can customize the
 application and make it run, without need for deep knowledge of the solution. In
 our case, we will switch to advanced mode in order to get deeper knowledge, so
-you need to click on *“Switch to Application View”*
+you need to click on *â€œSwitch to Application Viewâ€*
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/ac1abd13768270bc80cc101d56a6325a.png)
 
 9.  You will see the detailed components of your application in the left pane of
-    this Process builder tool (often referred to as simply “composer”). You can
+    this Process builder tool (often referred to as simply â€œcomposerâ€). You can
     see that the "first class citizens" of a process application are:
     *processes*, *forms* (the GUI), *business types* (to define business
     objects), *Decisions* (to create rules), *Integrations* (to link with
@@ -219,8 +219,8 @@ We will now:
 
 1.  From the palette of the From designer,
 
--   Drag and drop a field of type “Select” (a drop-down list) from the *Basic
-    Palette* on the **Canvas o**n top of *“Estimated Cost”*
+-   Drag and drop a field of type â€œSelectâ€ (a drop-down list) from the *Basic
+    Palette* on the **Canvas o**n top of *â€œEstimated Costâ€*
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/bd07f339eaf6afaede2688380cc29be3.png)
 
@@ -232,10 +232,10 @@ We will now:
     canvas
 
 2.  While still focused on your new field (country of destination), scroll down
-    on the left “Properties” pane until you see Options Source.
+    on the left â€œPropertiesâ€ pane until you see Options Source.
 
--   Make sure the Static box is toggled, and under “options Names” and “options
-    Values”, enter:
+-   Make sure the Static box is toggled, and under â€œoptions Namesâ€ and â€œoptions
+    Valuesâ€, enter:
 
 -   *France France*
 
@@ -250,7 +250,7 @@ We will now:
 
 We will now implement a Business Rule and add dynamic behavior to our form
 
-You need to select the “*Estimated Cost*” component on your form by clicking on
+You need to select the â€œ*Estimated Cost*â€ component on your form by clicking on
 it.
 
 We want our form to *hide the validation field if the amount is less than 2000*,
@@ -260,13 +260,13 @@ go to the **Properties** pane on the left and:
 
 1.  Scroll down and reach the **Event** line
 
-2.  Click the “+” sign to create an event. Select “On Change”
+2.  Click the â€œ+â€ sign to create an event. Select â€œOn Changeâ€
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/42e9a32348a79bfcecd6e0e2c0de04f1.png)
 
 1.  Edit the event by clicking on the pencil
 
-3.  Click on “**If**” and replicate the picture below for the “**If**” condition
+3.  Click on â€œ**If**â€ and replicate the picture below for the â€œ**If**â€ condition
     by selecting: *Control\> Estimated Cost \> value Is less than Constant \>
     2000*
 
@@ -276,9 +276,9 @@ go to the **Properties** pane on the left and:
 
 -   Click on **+Action** in front of *Then*
 
-5.  Choose the control name “justification”
+5.  Choose the control name â€œjustificationâ€
 
-6.  Select the action to “*Hide*”
+6.  Select the action to â€œ*Hide*â€
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/89150243b52e2a1ce662b65461cc602b.png)
 
@@ -316,11 +316,11 @@ recreate it from scratch.
 In our case, we just want a few fields to remain, and we will also add a new
 message to that form.
 
-1.  From the form’s properties (Make sure you have *not* clicked on any fields:
+1.  From the formâ€™s properties (Make sure you have *not* clicked on any fields:
     You may need to click somewhere on the from, out of a field), scroll down to
     *Presentations*
 
-2.  Click the “+” sign to add a new presentation
+2.  Click the â€œ+â€ sign to add a new presentation
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/3d79f58ba64e331b965dbcfa8d231e66.png)
 
@@ -341,7 +341,7 @@ On your new form:
 
 icon
 
-2.  Add a new message by drag and drop on top of First Name – Last Name. (The
+2.  Add a new message by drag and drop on top of First Name â€“ Last Name. (The
     message
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/5f0ae6253a0d608771d27b26925161b8.png)
@@ -351,8 +351,8 @@ widget is at the bottom of the basic palette)
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/0179d93bd6706c89221e8cfc2cbdbc8c.png)
 
 3.  From the *Properties* of your new message field, under *General* tab, add an
-    appropriate message in the *Default Text* field. ,such as “Congratulations,
-    your Travel has been approved”, or anything you like.
+    appropriate message in the *Default Text* field. ,such as â€œCongratulations,
+    your Travel has been approvedâ€, or anything you like.
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/892ee605a520e5e1a0b740a255f31694.png)
 
@@ -518,23 +518,23 @@ Add a Human Task
 
 -   Modify the process:
 
-1.  From the BPMN palette on the right, please select a “*Submit*” component in
+1.  From the BPMN palette on the right, please select a â€œ*Submit*â€ component in
     the "*Human*" family:
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/d37f2f4cfa4a742d22cc55e2ef01e05c.png](media/d37f2f4cfa4a742d22cc55e2ef01e05c.png)
 
-2.  Drag & drop the “*Submit”* component into the **Employee** SwimLane
+2.  Drag & drop the â€œ*Submitâ€* component into the **Employee** SwimLane
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/18491928fed2ab6e352f2bb1ad97a7b3.png](media/18491928fed2ab6e352f2bb1ad97a7b3.png)
 
-3.  Click on the arrow that links the blue “Book Travel” Box to the “Completed”
+3.  Click on the arrow that links the blue â€œBook Travelâ€ Box to the â€œCompletedâ€
     circle, pick the tip of it and attach it to your new green user task,
     instead:
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/1c6161e3f18f8968c4df3128f7e4352d.png](media/1c6161e3f18f8968c4df3128f7e4352d.png)
 
 4.  Click on your new user task, grab the arrow and link your new User Task to
-    the “*Completed*” task
+    the â€œ*Completed*â€ task
 
 5.  Your process should look like this:
 
@@ -543,9 +543,9 @@ Add a Human Task
 Configure the Human Task
 ------------------------
 
-1.  Select the “User task “Component, and chose its name (by double clicking on
-    the word “user Task” just below the green box. Re-name it to “Travel
-    Approved”
+1.  Select the â€œUser task â€œComponent, and chose its name (by double clicking on
+    the word â€œuser Taskâ€ just below the green box. Re-name it to â€œTravel
+    Approvedâ€
 
 2.  Then, open the properties panel by clicking on the burger menu:
 
@@ -554,8 +554,8 @@ Configure the Human Task
 3.  In the *Form* field, click the magnifying glass and add your form to the
     task (there is only one form: *TravelRequestForm*)
 
-4.  In the *Presentation* field, select the presentation named “*Travel
-    Approved*” instead of "*Main*".
+4.  In the *Presentation* field, select the presentation named â€œ*Travel
+    Approved*â€ instead of "*Main*".
 
 5.  In the *Title* field, add a title to your task: Click the expression editor
     (*fx*) instead of the plain editor (*abc)* :
@@ -591,7 +591,7 @@ Configure the Human Task
     existing form. In effect, when said we wanted to clone from the existing
     presentation, *all the data objects have been cloned, with the same name but
     with a number*. As such, *FirstName* became *FirstName1*, *LastName* became
-    *LastName1*, etc…
+    *LastName1*, etcâ€¦
 
 >   You need to drag-and-drop the three variable from the left side to the
 >   matching three variables on the right side.
@@ -721,7 +721,7 @@ Adding a CSS stylesheet to your
     note that the background has changed to light purple, and the labels to
     orange.
 
->   NOTE: Don’t laugh, these are the elegant colors of the Swiss guard uniform,
+>   NOTE: Donâ€™t laugh, these are the elegant colors of the Swiss guard uniform,
 >   designed by Michelangelo in 1510. They are still used today. Also note that
 >   the first input field is green, while the others are red, except the money
 >   format, in orange
@@ -730,7 +730,7 @@ Adding a CSS stylesheet to your
 
 Image result for swiss guard uniform
 
-However, if you don’t like it, feel free to pick whichever color you prefer. You
+However, if you donâ€™t like it, feel free to pick whichever color you prefer. You
 can find a good HTML color picker
 [here](https://www.w3schools.com/colors/colors_picker.asp). Edit the .CSS file,
 save it, and reload the stylesheet in PCS. You will need to click the recycle
