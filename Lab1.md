@@ -89,7 +89,7 @@ There are essentially three key components in OIC:
 ### STEP 1: Creating the initial application from QuickStart
 
 
-## Login to OICS
+# Login to OICS
 
 
 -   Log in OICS with your credentials, or those given to you:
@@ -102,9 +102,7 @@ There are essentially three key components in OIC:
 2.  We will focus on building processes, therefore click on the **Processes**
     tab on the left pane
 
-## Creating our first Process Application
-
-
+# Creating our first Process Application
 
 Let’s start developing our first process application.
 
@@ -181,7 +179,7 @@ Form that is needed for the human tasks. We want to augment this form with a
 variety of additional components, such as new fields, rules and access to
 predefined integrations
 
-## Opening a form
+**Opening a form**
 
 
 1.  If not already done, open your application by clicking on it. From the left
@@ -208,8 +206,7 @@ predefined integrations
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/1d902133dd00bc70f4a701e265cb9b9d.png)
 
-Configuring the new form fields
--------------------------------
+## Configuring the new form fields
 
 We will now:
 
@@ -286,7 +283,6 @@ go to the **Properties** pane on the left and:
 
 ### STEP 4: Testing a Form
 
-
 We will now test our form to see if it looks and behaves the way we want.
 
 1.  Click the *Preview* button:
@@ -306,7 +302,6 @@ We will now test our form to see if it looks and behaves the way we want.
     good habit to do once in a while.*
 
 ### STEP 5: Adding a new presentation to a Form
-
 
 We are now going to add another *presentation* to our form.
 
@@ -373,9 +368,8 @@ widget is at the bottom of the basic palette)
 
 ### STEP 6: Using an Integration to populate data
 
+## Adding the Integration
 
-Adding the Integration
-----------------------
 
 The ability to seamlessly bind a pre-built integration to a process is more
 than a simple feature. It is a significant competitive advantage of Oracle
