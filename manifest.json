@@ -12,13 +12,13 @@
             },
             {
                 "number": "01",
-                "filename": "Lab1_BuildingAnApp.md",
+                "filename": "Lab1.md",
                 "title": "OIC Process Lab 1",
                 "description": "OIC Process – Building a Workflow Application"
             }
              {
                 "number": "02",
-                "filename": "Lab2_Decision.md",
+                "filename": "Lab2.md",
                 "title": "OIC Process Lab 2",
                 "description": "OIC Process – Leveraging a DMN Rule"
             }
