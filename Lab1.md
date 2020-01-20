@@ -89,8 +89,8 @@ There are essentially three key components in OIC:
 ### STEP 1: Creating the initial application from QuickStart
 
 
-Login to OICS
--------------
+## Login to OICS
+
 
 -   Log in OICS with your credentials, or those given to you:
 
@@ -102,8 +102,8 @@ Login to OICS
 2.  We will focus on building processes, therefore click on the **Processes**
     tab on the left pane
 
-Creating our first Process Application
---------------------------------------
+## Creating our first Process Application
+
 
 
 Let’s start developing our first process application.
@@ -181,8 +181,8 @@ Form that is needed for the human tasks. We want to augment this form with a
 variety of additional components, such as new fields, rules and access to
 predefined integrations
 
-Opening a form
---------------
+## Opening a form
+
 
 1.  If not already done, open your application by clicking on it. From the left
     black panel, choose *Forms* and open the *TravelRequestForm*.
