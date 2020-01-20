@@ -743,7 +743,7 @@ bin button first, to remove the existing one.
 **KEY LEARNING POINT: The WebForms tool gives you the ability to alter the
 look&feel of a GUI, based on .CSS files**
 
-**Congratulations**! You have successfully completed this lab.
+**Congratulations**! You have successfully completed this lab. 
 
 For questions or feedback, please contact [Chris
 Peytier](mailto:christophe.claude.peytier@oracle.com) Oracle EMEA Cloud Pursuit
