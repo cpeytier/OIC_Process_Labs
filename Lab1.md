@@ -89,7 +89,7 @@ There are essentially three key components in OIC:
 ### STEP 1: Creating the initial application from QuickStart
 
 
-**Login to OICS
+**Login to OICS**
 
 
 -   Log in OICS with your credentials, or those given to you:
@@ -102,7 +102,7 @@ There are essentially three key components in OIC:
 2.  We will focus on building processes, therefore click on the **Processes**
     tab on the left pane
 
-**Creating our first Process Application
+**Creating our first Process Application**
 
 Let’s start developing our first process application.
 
@@ -179,7 +179,7 @@ Form that is needed for the human tasks. We want to augment this form with a
 variety of additional components, such as new fields, rules and access to
 predefined integrations
 
-**Opening a form
+**Opening a form**
 
 
 1.  If not already done, open your application by clicking on it. From the left
@@ -206,7 +206,7 @@ predefined integrations
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/1d902133dd00bc70f4a701e265cb9b9d.png)
 
-**Configuring the new form fields
+**Configuring the new form fields**
 
 We will now:
 
@@ -368,7 +368,7 @@ widget is at the bottom of the basic palette)
 
 ### STEP 6: Using an Integration to populate data
 
-**Adding the Integration
+**Adding the Integration**
 
 
 The ability to seamlessly bind a pre-built integration to a process is more
@@ -418,7 +418,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/4549488865528bc96e8f2ad4c3a65092.png](media/4549488865528bc96e8f2ad4c3a65092.png)
 
-**Activating the Integration
+**Activating the Integration**
 
 
 1.  From the main integration screen where you can see your GetCountry
@@ -499,7 +499,7 @@ a process or, like here, to fill a field on a form.**
 
 ### STEP 8: Modifying the Process
 
-**Add a Human Task
+**Add a Human Task**
 
 
 >   We will modify our process and add a new task that will appear to the user
@@ -532,7 +532,7 @@ a process or, like here, to fill a field on a form.**
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/881ffb262bf09334492671e9a3676ad5.png](media/881ffb262bf09334492671e9a3676ad5.png)
 
-**Configure the Human Task
+**Configure the Human Task**
 
 
 1.  Select the “User task “Component, and chose its name (by double clicking on
@@ -680,13 +680,13 @@ that they use the same form.**
 
 ### STEP 10: BONUS SECTION:
 
-**Changing the look of your form
+**Changing the look of your form**
 
 
 In this section we will be adding a CSS stylesheet to enhance the look and feel
 of our form. You will be more comfortable if you understand the concepts of CSS.
 
-**Adding a CSS stylesheet to your
+**Adding a CSS stylesheet to your Form**
 
 
 1.  Open your *TravelRequest* form. At the bottom of the Properties pane, edit
@@ -715,11 +715,11 @@ of our form. You will be more comfortable if you understand the concepts of CSS.
 >   NOTE: Don’t laugh, these are the elegant colors of the Swiss guard uniform,
 >   designed by Michelangelo in 1510. They are still used today. Also note that
 >   the first input field is green, while the others are red, except the money
->   format, in orange
+>   format, in orange:
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/d32715104cc8db78c0df41f5a2bae3d5.jpg](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
 
-Image result for swiss guard uniform
+
 
 However, if you don’t like it, feel free to pick whichever color you prefer. You
 can find a good HTML color picker
