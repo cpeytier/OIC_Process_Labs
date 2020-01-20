@@ -1,5 +1,5 @@
 
-# Oracle Integration Cloud Lab1:
+# Oracle Integration Cloud Lab1
 ## Building a Workflow Application
 
 
