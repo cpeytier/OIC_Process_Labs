@@ -4,13 +4,7 @@
         "description": "Hands-on Digital Modernization",
         "theme": "default",
         "labs": [
-			{
-                "number": "00",
-                "filename": "lab00.md",
-                "title": "Prerequisites",
-                "description": "Prerequisites for Digital Workshop"
-            },
-            {
+	            {
                 "number": "01",
                 "filename": "Lab1.md",
                 "title": "OIC Process Lab 1",
