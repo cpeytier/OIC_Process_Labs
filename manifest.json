@@ -4,7 +4,13 @@
         "description": "Hands-on Digital Modernization",
         "theme": "default",
         "labs": [
-	            {
+	              {
+                "number": "00",
+                "filename": "Home.md",
+                "title": "Welcome",
+                "description": "Read me first"
+            },
+		{
                 "number": "01",
                 "filename": "Lab1.md",
                 "title": "OIC Process Lab 1",
