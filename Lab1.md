@@ -377,22 +377,21 @@ widget is at the bottom of the basic palette)
 Adding the Integration
 ----------------------
 
--   The ability to seamlessly bind a pre-built integration to a process is more
-    than a simple feature. It is a significant competitive advantage of Oracle
-    Integration Cloud, because it bridges two separate worlds:
+The ability to seamlessly bind a pre-built integration to a process is more
+than a simple feature. It is a significant competitive advantage of Oracle
+Integration Cloud, because it bridges two separate worlds:
 
--   The world of IT, connecting various back-end systems. It requires a deep
+    - The world of IT, connecting various back-end systems. It requires a deep
     technical knowledge of "what" to connect and when.
 
--   The world of business management, where people have the knowledge of "how"
+    - The world of business management, where people have the knowledge of "how"
     to connect things and "when" (workflow).
 
--   These two worlds are quite distinct, and often do not talk very well with
+These two worlds are quite distinct, and often do not talk very well with
     one another.
+We will see how OIC helps us to easily bridge these two worlds.
 
--   We will see how OIC helps us to easily bridge these two worlds.
-
--   **Let us do it:**
+#Let us do it:
 
 -   From the OIC Welcome page, go to the Integration tab (on the left black
     panel). This will open the list of integrations.
@@ -425,8 +424,8 @@ Adding the Integration
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/4549488865528bc96e8f2ad4c3a65092.png](media/4549488865528bc96e8f2ad4c3a65092.png)
 
-Activating the Integration
---------------------------
+## Activating the Integration
+
 
 1.  From the main integration screen where you can see your GetCountry
     integration, just pull the slider on the right.
@@ -437,8 +436,8 @@ Activating the Integration
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/6964e286bab9df4b9f56952fba73a1e0.png](media/6964e286bab9df4b9f56952fba73a1e0.png)
 
-Making the integration known to your Process Application
---------------------------------------------------------
+## Making the integration known to your Process Application
+
 
 1.  From *OIC Home Page,* go to *Process -\> Process Application* and open your
     *XXTravelApp* application
@@ -506,9 +505,8 @@ a process or, like here, to fill a field on a form.**
 
 ### STEP 8: Modifying the Process
 
+## Add a Human Task
 
-Add a Human Task
-----------------
 
 >   We will modify our process and add a new task that will appear to the user
 >   in order to let them know that their trip has been approved. For this, we
@@ -540,8 +538,8 @@ Add a Human Task
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/881ffb262bf09334492671e9a3676ad5.png](media/881ffb262bf09334492671e9a3676ad5.png)
 
-Configure the Human Task
-------------------------
+## Configure the Human Task
+
 
 1.  Select the “User task “Component, and chose its name (by double clicking on
     the word “user Task” just below the green box. Re-name it to “Travel
@@ -688,15 +686,14 @@ that they use the same form.**
 
 ### STEP 10: BONUS SECTION:
 
+## Changing the look of your form
 
-Changing the look of your form
-==============================
 
 In this section we will be adding a CSS stylesheet to enhance the look and feel
 of our form. You will be more comfortable if you understand the concepts of CSS.
 
-Adding a CSS stylesheet to your
--------------------------------
+## Adding a CSS stylesheet to your
+
 
 1.  Open your *TravelRequest* form. At the bottom of the Properties pane, edit
     the stylesheet section. (NOTE: You must be at the form level, NOT clicked on
