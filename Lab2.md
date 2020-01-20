@@ -1,5 +1,6 @@
-Oracle Integration Cloud Lab2 - Creating a Decision Rule
-========================================================
+# Oracle Integration Cloud Lab2 
+## Creating a Decision Rule
+
 
 ### Introduction 
 
