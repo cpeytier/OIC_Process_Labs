@@ -6,7 +6,7 @@
         "labs": [
 	              {
                 "number": "00",
-                "filename": "Home.md",
+                "filename": "home.md",
                 "title": "Welcome",
                 "description": "Read me first"
             },
