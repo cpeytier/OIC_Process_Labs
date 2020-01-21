@@ -68,12 +68,12 @@ There are essentially three key components in OIC:
 
 -   If you can with a *Workflow* mindset, that is:
 
-    -   You want your application to handle a succession of tasks that need to
-        be dispatched to a variety of persons depending on their roles. You want
-        that workflow to handle escalations, policies, rules and exceptions
+        -   You want your application to handle a succession of tasks that need to
+            be dispatched to a variety of persons depending on their roles. You want
+            that workflow to handle escalations, policies, rules and exceptions
 
-    -   Some are human tasks, others are system tasks such as integrations to
-        back-end system
+        -   Some are human tasks, others are system tasks such as integrations to
+            back-end system
 
 >   *… then you should start with Process…* which is what **we will focus on
 >   today.**
