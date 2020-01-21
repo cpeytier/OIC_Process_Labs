@@ -84,8 +84,7 @@ There are essentially three key components in OIC:
 -   You must have access to an OIC instance, with your credentials.
 
 -   **IMPORTANT NOTE**: If you are likely to use a shared instance, please make
-    sure you use your initials or your first name , as a way to
-    differentiate your work from the work of others.
+    sure you use your initials or your first name , as a way to     differentiate your work from the work of others.
 
 ### STEP 1: Creating the initial application from QuickStart
 
