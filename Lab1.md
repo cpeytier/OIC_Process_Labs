@@ -99,10 +99,10 @@ There are essentially three key components in OIC:
 1.  From the main **Home** page, you can see all the components that constitute
     the OICS solution, such as Integration, Process and Visual Builder.
 
-2.  We will focus on building processes, therefore click on the **Processes**
+2.  We will focus on building processes, therefore click on the *Processes*
     tab on the left pane
 
-**Creating our first Process Application**
+*Creating our first Process Application*
 
 Let’s start developing our first process application.
 
