@@ -53,10 +53,10 @@ There are essentially three key components in OIC:
 
     -   As a side benefit, you can also invoke a Process from VBCS
 
-    -   Hint: When to use the Process tool to create your GUI, and when to use
+**HINT:** When to use the Process tool to create your GUI, and when to use
         VBCS?
 
-    -   If you come with an *Application* mindset, that is:
+-    If you come with an *Application* mindset, that is:
 
         -   You want to build a collection of pages calling one another
 
