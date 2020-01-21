@@ -376,8 +376,7 @@ Integration Cloud, because it bridges two separate worlds:
     - The world of business management, where people have the knowledge of "how"
     to connect things and "when" (workflow).
 
-These two worlds are quite distinct, and often do not talk very well with
-    one another.
+These two worlds are quite distinct, and often do not talk very well with one another.
 We will see how OIC helps us to easily bridge these two worlds.
 
 #Let us do it:
@@ -387,7 +386,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 -   Spot a *GetCountry* integration. If it is already there (likely, if you work
     on a shared instance), *you can skip the rest of this paragraph* and go
-    directly to "Make the integration known to your process".
+    directly to "STEP 7: Make the integration known to your Process Application".
 
 -   This integration is very simple and essentially accepting a REST request
     (with no parameters) and returning an array of Country values: Albania,
@@ -398,7 +397,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 1.  *From the Home screen of OIC, go to Integration.*
 
-2.  Search the *GetCountry* integration*.*
+2.  Search the *GetCountry* integration (Note: 
 
 3.  If it is not present, then import it by clicking "import" at the right of
     the top blue band. The file to import is located here, and you need to
@@ -425,7 +424,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 ![](media/6964e286bab9df4b9f56952fba73a1e0.png)
 
-**Making the integration known to your Process Application
+ ### STEP 7: Making the integration known to your Process Application
 
 
 1.  From *OIC Home Page,* go to *Process -\> Process Application* and open your
@@ -440,8 +439,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 ![](media/1f565bdde7bfa1b387973515fe06d2d3.png)
 
-### STEP 7: Changing the WebForm to access the integration
-
+ **Changing the WebForm to access the integration**
 
 1.  Open the *TravelRequestForm* form.
 
