@@ -123,7 +123,7 @@ other participants
 
 5.  In the right corner of the top blue band, Click **Create**
 
-6.  Choose *Start with QuickStar*t
+6.  Choose *Start with QuickStart*
 
 ![](media/6418e3a1f1872f98ffe96f90854a3131.png)
 
