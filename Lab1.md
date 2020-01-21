@@ -558,19 +558,18 @@ a process or, like here, to fill a field on a form.
     with a number*. As such, *FirstName* became *FirstName1*, *LastName* became
     *LastName1*, etc…
 
-    >   You need to drag-and-drop the three variable from the left side to the
-    >   matching three variables on the right side.
+>   You need to drag-and-drop the three variable from the left side to the
+>   matching three variables on the right side.
 
-    -   _FirstName_ needs to associate with _FirstName1_
+ -   _FirstName_ needs to associate with _FirstName1_
 
-    -   _LastName_ on the left needs to associate with _LastName1_
+ -   _LastName_ on the left needs to associate with _LastName1_
 
-    -   _EstimatedCost_ needs to associate with _EstimatedCost1_
+ -   _EstimatedCost_ needs to associate with _EstimatedCost1_
 
-    ![h](media/0c19a381c8aace7965f6ab1c28e94d5e.png)
+![h](media/0c19a381c8aace7965f6ab1c28e94d5e.png)
 
-    >   Click the *Apply* button on the top right.
-
+>   Click the *Apply* button on the top right.
 >   Save your work.
 
 >   **You have now completed the changes to your process.**
@@ -585,7 +584,7 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
 2.  Activate your application (top right button). This means that it is published to the "test"
     repository:
 
-![](media/205d662e99adde50161cc43ed687876a.png)
+    ![](media/205d662e99adde50161cc43ed687876a.png)
 
 2.  Notice that an intermediate window will appear, with an option to "Add you
     to all roles". By default, this box is checked. This will be a convenient
@@ -593,18 +592,18 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
     having to logout and login again with different credentials, when we test
     our application.
 
-![](media/00c8e8b8ff2a720db8de9b76e91868c9.png)
+    ![](media/00c8e8b8ff2a720db8de9b76e91868c9.png)
 
 3.  You are now ready to test you application. Click the *Try in Test mode*
     button:
 
-![](media/c66b49a81293f1be03fe843d5780bf9b.png)
+    ![](media/c66b49a81293f1be03fe843d5780bf9b.png)
 
 4.  This will bring you to the workspace that a "normal" user would see, and
     from there you can start your application by clicking the round icon
     corresponding to it:
 
-![](media/380eb98871199d28fa8f514778b30a5a.png)
+    ![](media/380eb98871199d28fa8f514778b30a5a.png)
 
     Notive that on a shared environment there could be several deployed application, since you are all sharing
     the same testing environment. If you have doubts on which is actually your application, you can float over the roind icon
@@ -614,32 +613,32 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
     NOTE: Remember that if you enter a total amount of less than 2000$, the
     "justification" field will disappear when you tab out.
 
-![](media/7e50a3f43ddce91af53b0a183fbdb609.png)
+    ![](media/7e50a3f43ddce91af53b0a183fbdb609.png)
 
 6.  Click the **"My Task"** icon on the black pane on the left. This will show that
     you have a task waiting for you.
 
->   **Note:** Because we are in test mode, we have been given access to all the
->   roles. In reality, for a deployed application, this task should only be
->   visible to the person who has a role of "*Approver*", and it should normally
->   be different from the person who has the role of "*Submitter*". This is for
->   convenience reasons, otherwise we would need to log off , and login again
->   with different credentials in order to see our pending task.
+    >   **Note:** Because we are in test mode, we have been given access to all the
+    >   roles. In reality, for a deployed application, this task should only be
+    >   visible to the person who has a role of "*Approver*", and it should normally
+    >   be different from the person who has the role of "*Submitter*". This is for
+    >   convenience reasons, otherwise we would need to log off , and login again
+    >   with different credentials in order to see our pending task.
 
-![](media/94c1f7b4a6c5095582c8ee45994c7e21.png)
+    ![](media/94c1f7b4a6c5095582c8ee45994c7e21.png)
 
 7.  Double-click on the task to open it. You should see the details of the
     travel request. For the fun of it, add a comment to explain why you will
     approve, remember to click the **Post Comment** button
 
-![](media/6afaeff791da0de20be438c823f426ab.png)
+    ![](media/6afaeff791da0de20be438c823f426ab.png)
 
 8.  Click the **Approve** button at the top.
 
 9.  We now expect a task to be in the "Initiator" task list, confirming that the
     travel has been approved. Click on the _"Reload"_ icon on the top right.
 
-![](media/c8cbff60945b8d44b4080b932faa418c.png)
+!   [](media/c8cbff60945b8d44b4080b932faa418c.png)
 
 
 10.  You will then see, as expected, a task confirming that your trip has been
@@ -647,7 +646,7 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
     presentation, with less fields, and the congratulation message, as well as
     the comments from the approver.
 
-![](media/22395ca7e92a805fedcfc46a640f7d42.png)
+    ![](media/22395ca7e92a805fedcfc46a640f7d42.png)
 
 **KEY LEARNING POINT:** You can easily add or modify tasks to an existing process.
 You can  map fields via the _Data association_ between tasks. You can also
@@ -656,32 +655,28 @@ that they use the same form.
 
 ### STEP 10: BONUS SECTION:
 
-**Changing the look of your form**
-
+**Changing the look of your form with a CSS stylesheet**
 
 In this section we will be adding a CSS stylesheet to enhance the look and feel
 of our form. You will be more comfortable if you understand the concepts of CSS.
-
-**Adding a CSS stylesheet to your Form**
-
 
 1.  Open your *TravelRequest* form. At the bottom of the Properties pane, edit
     the stylesheet section. (NOTE: You must be at the form level, NOT clicked on
     a specific field)
 
-![](media/ac14b9dcaffd4dce9d70ee4b2ee6e0af.png)
+    ![](media/ac14b9dcaffd4dce9d70ee4b2ee6e0af.png)
 
 2.  Click the *upload* button, and choose the *PCS_stylesheet.css* file that you
     will find here: [link](./dependencies/PCS_stylesheet.css)
     
-![](media/50cdc30263d96b8ea01fc515cee9381f.png)
+    ![](media/50cdc30263d96b8ea01fc515cee9381f.png)
 
 3.  Take some time to read the comments in that file. You need to understand the
     difference between affecting an HTML control name, such as *input*, and a
     CSS class, such as *.oj-label*. Note that the CSS classes are prefixed with
     a dot.
 
-![](media/7df9b30663feaa9ec032d3852c373f69.png)
+    ![](media/7df9b30663feaa9ec032d3852c373f69.png)
 
 4.  Preview your form by clicking the **Form** button at the right of CSS. You will
     note that the background has changed to light purple, and the labels to
@@ -692,16 +687,14 @@ of our form. You will be more comfortable if you understand the concepts of CSS.
 >   the first input field is green, while the others are red, except the money
 >   format, in orange:
 
-![](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
+    ![](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
 
+    However, if you don’t like it, feel free to pick whichever color you prefer. You
+    can find a good HTML color picker [here](https://www.w3schools.com/colors/colors_picker.asp). 
+    Edit the .CSS file, save it, and reload the stylesheet in PCS. You will need to click the recycle
+    bin button first, to remove the existing one.
 
-
-However, if you don’t like it, feel free to pick whichever color you prefer. You
-can find a good HTML color picker [here](https://www.w3schools.com/colors/colors_picker.asp). 
-Edit the .CSS file, save it, and reload the stylesheet in PCS. You will need to click the recycle
-bin button first, to remove the existing one.
-
-![](media/bce1f7c793de128b3a7ad54d9243a621.png)
+    ![](media/bce1f7c793de128b3a7ad54d9243a621.png)
 
 
 **KEY LEARNING POINT**: The WebForms tool gives you the ability to alter the
