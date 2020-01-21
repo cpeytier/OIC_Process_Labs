@@ -95,7 +95,7 @@ There are essentially three key components in OIC:
 
 -   Log in OICS with your credentials, or those given to you:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/022e18c04029309a71f8e907c5d9ab80.png](media/022e18c04029309a71f8e907c5d9ab80.png)
+![](media/022e18c04029309a71f8e907c5d9ab80.png)
 
 1.  From the main **Home** page, you can see all the components that constitute
     the OICS solution, such as Integration, Process and Visual Builder.
