@@ -104,11 +104,11 @@ There are essentially three key components in OIC:
 
 *Creating our first Process Application*
 
-Let’s start developing our first process application.
+    Let’s start developing our first process application.
 
-First, we are going to create our own Space, this will allow us to shield from
-other users. This is specially useful if you are sharing your OIC instance with
-other participants
+    First, we are going to create our own Space, this will allow us to shield from
+    other users. This is specially useful if you are sharing your OIC instance with
+    other participants
 
 3.  Click on the *Spaces* tab, from the left pane
 
@@ -117,7 +117,7 @@ other participants
 5.  Name it the way you like. NOTE: if you are on a shard environment, **:
     MySpaceXX (Note :** XX is your personal identifier given by the instructor)
 
-![](media/5f2371d3a1e0a24cfb4e12290a55d5df.png)
+    ![](media/5f2371d3a1e0a24cfb4e12290a55d5df.png)
 
 6.  Return to the *Process Application* tab.
 
@@ -125,27 +125,27 @@ other participants
 
 8.  Choose *Start with QuickStart*
 
-![](media/6418e3a1f1872f98ffe96f90854a3131.png)
+    ![](media/6418e3a1f1872f98ffe96f90854a3131.png)
 
 9.  Select the *Travel Approval* application Quickstart template (bottom right) by clicking
     **Create**
 
->   **Name:** We recommend the name: *XXTravelApp* where *XX is your initials*, particularly in the case where you work on a shared environment
+    >   **Name:** We recommend the name: *XXTravelApp* where *XX is your initials*, particularly in the case where you work on a    shared environment
 
->   If not already selected, choose **“MySpaceXX”**’ from the Space drop down
->   (where XX is your initials)
+    >   If not already selected, choose **“MySpaceXX”**’ from the Space drop down
+    >   (where XX is your initials)
 
-![](media/796d3611042358c83dcf643f95d7eef4.png)
+    ![](media/796d3611042358c83dcf643f95d7eef4.png)
 
 10.  Click **Create**
 
-When the application has been created, you will see a screen where you can
-configure a variety of choices. This is for business users who can customize the
-application and make it run, without need for deep knowledge of the solution. In
-our case, we will switch to advanced mode in order to get deeper knowledge, so
-you need to click on *“Switch to Application View”* (top right)
+    When the application has been created, you will see a screen where you can
+    configure a variety of choices. This is for business users who can customize the
+    application and make it run, without need for deep knowledge of the solution. In
+    our case, we will switch to advanced mode in order to get deeper knowledge, so
+    you need to click on *“Switch to Application View”* (top right)
 
-![](media/ac1abd13768270bc80cc101d56a6325a.png)
+    ![](media/ac1abd13768270bc80cc101d56a6325a.png)
 
 11.  You will see the detailed components of your application in the left pane of
     this Process builder tool. You can see that the "first class citizens" of a process application are:
@@ -153,12 +153,12 @@ you need to click on *“Switch to Application View”* (top right)
     objects), *Decisions* (to create rules), *Integrations* (to link with
     pre-defined integrations), and *Indicators* (for KPI and reporting).
 
-![](media/b33f749d7883a74a524e01e5f972edd0.png)
+    ![](media/b33f749d7883a74a524e01e5f972edd0.png)
 
 12.  Note: Depending on the versions, it could rather be with the components on
     the right, in a drop-down list:
 
-![](media/25b5cba12296df08dd3e609198740e05.png)
+    ![](media/25b5cba12296df08dd3e609198740e05.png)
 
 13.  Open the *Travel Approval* process by clicking on it.
 
