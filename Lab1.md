@@ -118,7 +118,7 @@ other participants
 3.  Name it the way you like. NOTE: if you are on a shard environment, **:
     MySpaceXX (Note :** XX is your personal identifier given by the instructor)
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/5f2371d3a1e0a24cfb4e12290a55d5df.png)
+![](media/5f2371d3a1e0a24cfb4e12290a55d5df.png)
 
 4.  Return to the *Process Application* tab.
 
