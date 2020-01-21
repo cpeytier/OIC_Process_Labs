@@ -84,8 +84,8 @@ There are essentially three key components in OIC:
 -   You must have access to an OIC instance, with your credentials.
 
 -   **IMPORTANT NOTE**: If you are likely to use a shared instance, please make
-    sure you know your Participant ID , as it will be required in order to
-    differentiate your work from the work of others, since
+    sure you use your initials or your first name , as a way to
+    differentiate your work from the work of others.
 
 ### STEP 1: Creating the initial application from QuickStart
 
@@ -126,19 +126,17 @@ other participants
 
 6.  Choose *Start with QuickStar*t
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/6418e3a1f1872f98ffe96f90854a3131.png)
+![](media/6418e3a1f1872f98ffe96f90854a3131.png)
 
 7.  Select the *Travel Approval* application Quickstart template (bottom right) by clicking
     **Create**
 
->   **Name:** We recommend the name: *XXTravelApp* where *XX is your student id
->   or your initials*, particularly in the case where you work on a shared
->   environment
+>   **Name:** We recommend the name: *XXTravelApp* where *XX is your initials*, particularly in the case where you work on a shared environment
 
 >   If not already selected, choose **“MySpaceXX”**’ from the Space drop down
->   (where XX is your student id)
+>   (where XX is your initials)
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/796d3611042358c83dcf643f95d7eef4.png)
+![](media/796d3611042358c83dcf643f95d7eef4.png)
 
 8.  Click **Create**
 
@@ -146,24 +144,22 @@ When the application has been created, you will see a screen where you can
 configure a variety of choices. This is for business users who can customize the
 application and make it run, without need for deep knowledge of the solution. In
 our case, we will switch to advanced mode in order to get deeper knowledge, so
-you need to click on *“Switch to Application View”*
+you need to click on *“Switch to Application View”* (top right)
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/ac1abd13768270bc80cc101d56a6325a.png)
+![](media/ac1abd13768270bc80cc101d56a6325a.png)
 
 9.  You will see the detailed components of your application in the left pane of
-    this Process builder tool (often referred to as simply “composer”). You can
-    see that the "first class citizens" of a process application are:
+    this Process builder tool. You can see that the "first class citizens" of a process application are:
     *processes*, *forms* (the GUI), *business types* (to define business
     objects), *Decisions* (to create rules), *Integrations* (to link with
-    pre-defined integrations), *Indicators* (for KPI and reporting) and, very
-    soon, *Machine Learning.*
+    pre-defined integrations), and *Indicators* (for KPI and reporting).
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/b33f749d7883a74a524e01e5f972edd0.png)
+![](media/b33f749d7883a74a524e01e5f972edd0.png)
 
 7.  Note: Depending on the versions, it could rather be with the components on
     the right, in a drop-down list:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/25b5cba12296df08dd3e609198740e05.png)
+![](media/25b5cba12296df08dd3e609198740e05.png)
 
 10.  Open the *Travel Approval* process by clicking on it.
 
