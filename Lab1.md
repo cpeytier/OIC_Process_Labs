@@ -379,7 +379,7 @@ Integration Cloud, because it bridges two separate worlds:
 These two worlds are quite distinct, and often do not talk very well with one another.
 We will see how OIC helps us to easily bridge these two worlds.
 
-#Let us do it:
+# Let us do it:
 
 1.  From the _Home_ screen of OIC, go to _Integration_
 
