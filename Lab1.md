@@ -381,30 +381,21 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 #Let us do it:
 
--   From the OIC Welcome page, go to the Integration tab (on the left black
-    panel). This will open the list of integrations.
+1.  From the _Home_ screen of OIC, go to _Integration_
 
--   Spot a *GetCountry* integration. If it is already there (likely, if you work
-    on a shared instance), *you can skip the rest of this paragraph* and go
+2.  Search the *GetCountry* integration. It may already have been imported by someone
+    else doing the same lab as you. If this is the case, *you can skip the rest of this paragraph* and go
     directly to "STEP 7: Make the integration known to your Process Application".
 
--   This integration is very simple and essentially accepting a REST request
-    (with no parameters) and returning an array of Country values: Albania,
-    Belgium, etc. This array will be used to replace the hard-coded country list
-    that we have on our existing form.
+3.  If it is not present, then download the pre-defined integration file on your PC, that you can find
+    here: [link](./dependencies/GETCOUNTRYLIST_01.00.0000.iar)
+    
+4.  import it by clicking "import" at the right of the top blue band. 
 
-**Details**:
-
-1.  *From the Home screen of OIC, go to Integration.*
-
-2.  Search the *GetCountry* integration (Note: 
-
-3.  If it is not present, then import it by clicking "import" at the right of
-    the top blue band. The file to import is located here, and you need to
-    download it on your PC first. (CP: need to find out how to get a file on
-    Github.)
-
-4.  Open it (*Edit*, from the right Stacked bars menu)
+5.  Open it (*Edit*, from the right Stacked bars menu). This integration is very simple and is essentially
+    accepting a REST request (with no parameters) and returning an array of _Country_ values: Albania,
+    Belgium, etc. 
+    This array will be used to replace the hard-coded country list that we currently have on our existing form.
 
     1.  Open the data mapping. (the round blue action in the middle)
 
@@ -413,7 +404,6 @@ We will see how OIC helps us to easily bridge these two worlds.
 ![](media/4549488865528bc96e8f2ad4c3a65092.png)
 
 **Activating the Integration**
-
 
 1.  From the main integration screen where you can see your GetCountry
     integration, just pull the slider on the right.
