@@ -165,7 +165,7 @@ you need to click on *“Switch to Application View”* (top right)
 
 -   In the next section we will learn how to configure it.
 
--   **KEY LEARNING POINT: You can very quickly create a full-featured,
+    **KEY LEARNING POINT: You can very quickly create a full-featured,
     ready-to-run, application just by selecting amongst a list of pre-defined
     templates. This list of templates evolves with every new version.**
 
@@ -185,7 +185,7 @@ predefined integrations
 -   Note: depending on the version of the tool, the components could be visible
     from a drop-down list on the right:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/25b5cba12296df08dd3e609198740e05.png)
+![](media/25b5cba12296df08dd3e609198740e05.png)
 
 2.  Take a moment to study the form building tool:
 
@@ -201,7 +201,7 @@ predefined integrations
 -   On the right, you have the **Palette** screen. This is where you will take
     all your components from
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/1d902133dd00bc70f4a701e265cb9b9d.png)
+![](media/1d902133dd00bc70f4a701e265cb9b9d.png)
 
 **Configuring the new form fields**
 
@@ -216,16 +216,16 @@ We will now:
 -   Drag and drop a field of type “Select” (a drop-down list) from the *Basic
     Palette* on the **Canvas o**n top of *“Estimated Cost”*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/bd07f339eaf6afaede2688380cc29be3.png)
+![](media/bd07f339eaf6afaede2688380cc29be3.png)
 
-1.  Click on this newly added field, and from the **Properties** screen on the
+2.  Click on this newly added field, and from the **Properties** screen on the
     left, change the name to *Country*, and the label to *Country of
     Destination*
 
 -   After Tab-out, this will automatically update the label of the field on the
     canvas
 
-2.  While still focused on your new field (country of destination), scroll down
+3.  While still focused on your new field (country of destination), scroll down
     on the left “Properties” pane until you see Options Source.
 
 -   Make sure the Static box is toggled, and under “options Names” and “options
@@ -237,7 +237,7 @@ We will now:
 
 -   *Croatia Croatia*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/0eca9629040776abd2a52fc8f3b42449.png)
+![](media/0eca9629040776abd2a52fc8f3b42449.png)
 
 ### STEP 3: Adding a Dynamic behavior to a Form
 
@@ -252,19 +252,17 @@ so
 
 go to the **Properties** pane on the left and:
 
-1.  Scroll down and reach the **Event** line
+1.  Scroll down and reach the **Event** line and click the “+” sign to create an event. Select “On Change”
 
-2.  Click the “+” sign to create an event. Select “On Change”
+![](media/42e9a32348a79bfcecd6e0e2c0de04f1.png)
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/42e9a32348a79bfcecd6e0e2c0de04f1.png)
-
-1.  Edit the event by clicking on the pencil
+2.  Edit the event by clicking on the pencil
 
 3.  Click on “**If**” and replicate the picture below for the “**If**” condition
     by selecting: *Control\> Estimated Cost \> value Is less than Constant \>
     2000*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/62a33cb84b951aa5103da29dd53a29a4.png)
+![](media/62a33cb84b951aa5103da29dd53a29a4.png)
 
 4.  We will then configure the **action** linked to this condition.
 
@@ -274,7 +272,7 @@ go to the **Properties** pane on the left and:
 
 6.  Select the action to “*Hide*”
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/89150243b52e2a1ce662b65461cc602b.png)
+![](media/89150243b52e2a1ce662b65461cc602b.png)
 
 7.  Click *OK* at the bottom right*.*
 
@@ -314,7 +312,7 @@ message to that form.
 
 2.  Click the “+” sign to add a new presentation
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/3d79f58ba64e331b965dbcfa8d231e66.png)
+![](media/3d79f58ba64e331b965dbcfa8d231e66.png)
 
 3.  Use the "Clone" option in the middle. This will clone your new presentation
     based on the previous one. It is useful if you want to maintain some of the
@@ -329,24 +327,24 @@ On your new form:
 1.  Remove the fields and simply leave *First Name, Last Name*, and *Estimated
     Cost* by highlighting each field and clicking on the trash :
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/eaf11f1a6207e37a7bc20099e23c554e.png)
+![](media/eaf11f1a6207e37a7bc20099e23c554e.png)
 
 icon
 
 2.  Add a new message by drag and drop on top of First Name – Last Name. (The
     message
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/5f0ae6253a0d608771d27b26925161b8.png)
+![](media/5f0ae6253a0d608771d27b26925161b8.png)
 
 widget is at the bottom of the basic palette)
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/0179d93bd6706c89221e8cfc2cbdbc8c.png)
+![](media/0179d93bd6706c89221e8cfc2cbdbc8c.png)
 
 3.  From the *Properties* of your new message field, under *General* tab, add an
     appropriate message in the *Default Text* field. ,such as “Congratulations,
     your Travel has been approved”, or anything you like.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/892ee605a520e5e1a0b740a255f31694.png)
+![](media/892ee605a520e5e1a0b740a255f31694.png)
 
 4.  Click on the *Styling* tab, go down *to Font Size* and choose *x-large:*
 
@@ -354,7 +352,7 @@ widget is at the bottom of the basic palette)
 
 6.  Preview you form. It should look like that:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/](media/fb9c29906e53db25ec6baa522cb74587.png)
+![](media/fb9c29906e53db25ec6baa522cb74587.png)
 
 >   Save Your Work
 
@@ -413,7 +411,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
     2.  See that it essentially returns an array of predefined countries:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/4549488865528bc96e8f2ad4c3a65092.png](media/4549488865528bc96e8f2ad4c3a65092.png)
+![](media/4549488865528bc96e8f2ad4c3a65092.png)
 
 **Activating the Integration**
 
@@ -421,11 +419,11 @@ We will see how OIC helps us to easily bridge these two worlds.
 1.  From the main integration screen where you can see your GetCountry
     integration, just pull the slider on the right.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/3f0f01688a2f71a64ef6222334cb6370.png](media/3f0f01688a2f71a64ef6222334cb6370.png)
+![](media/3f0f01688a2f71a64ef6222334cb6370.png)
 
 2.  Make sure you check the box *Enable Tracing* and *Include Payload.*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/6964e286bab9df4b9f56952fba73a1e0.png](media/6964e286bab9df4b9f56952fba73a1e0.png)
+![](media/6964e286bab9df4b9f56952fba73a1e0.png)
 
 **Making the integration known to your Process Application
 
@@ -436,11 +434,11 @@ We will see how OIC helps us to easily bridge these two worlds.
 2.  Click Integration on the black left pane and the click the blue **Create**
     button on the right. Choose "use an Integration"
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/eb53150b1cba091fe1e6ef3e4a4e66e4.png](media/eb53150b1cba091fe1e6ef3e4a4e66e4.png)
+![](media/eb53150b1cba091fe1e6ef3e4a4e66e4.png)
 
 3.  Choose *GetCountryList*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/1f565bdde7bfa1b387973515fe06d2d3.png](media/1f565bdde7bfa1b387973515fe06d2d3.png)
+![](media/1f565bdde7bfa1b387973515fe06d2d3.png)
 
 ### STEP 7: Changing the WebForm to access the integration
 
