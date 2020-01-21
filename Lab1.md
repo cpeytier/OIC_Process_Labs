@@ -586,7 +586,7 @@ a process or, like here, to fill a field on a form.
 >   **You have now completed the changes to your process.**
 
 **QUIZZ**: Can you think of a way that could have avoided the need to do this data mapping?
-_ANSWER_: When you created the presentation, you could have gone to the left of the panel, and corrected the 
+_ANSWER_: When you created the presentation, you could have gone to the left of the panel, and corrected the name of the field that were mapped: instead of _First Name_ mapped to **FirstName1**, you could have mapped it to the existing field **FirstName**. This would have avoided the need to map fields in the Data Association part, because the same variable (_FirstName_, etc.) would have been used for **both** the _Default_ presentation as well as your _TravelApproved_ presentation
 
 ### STEP 9: Test your work
 
