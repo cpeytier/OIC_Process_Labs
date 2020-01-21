@@ -66,7 +66,7 @@ There are essentially three key components in OIC:
 
 >   *… then you should start with VBCS.*
 
--   If you can with a *Workflow* mindset, that is:
+-   If you come with a *Workflow* mindset, that is:
 
         -   You want your application to handle a succession of tasks that need to
             be dispatched to a variety of persons depending on their roles. You want
