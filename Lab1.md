@@ -647,26 +647,22 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
 8.  Click the **Approve** button at the top.
 
 9.  We now expect a task to be in the "Initiator" task list, confirming that the
-    travel has been approved. Click on the _"Previous"_ icon on the top right.
+    travel has been approved. Click on the _"Reload"_ icon on the top right.
 
 ![](media/c8cbff60945b8d44b4080b932faa418c.png)
 
-10.  Click "My Tasks", then open the Workspace. The button is not easy to spot!
-    It's on the top, at the right of the blue band:
 
-![](media/2aec0e1ded7afbbeb968d875c480b2f9.png)
-
-11.  You will then see, as expected, the task confirming that your trip has been
+10.  You will then see, as expected, a task confirming that your trip has been
     approved. Double-click on it, and you should see the details, with the new
     presentation, with less fields, and the congratulation message, as well as
     the comments from the approver.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/22395ca7e92a805fedcfc46a640f7d42.png](media/22395ca7e92a805fedcfc46a640f7d42.png)
+![](media/22395ca7e92a805fedcfc46a640f7d42.png)
 
-**KEY LEARNING POINT: You can easily add or modify tasks to an existing process.
-You can easily map fields via the Data association between tasks. You can also
+**KEY LEARNING POINT:** You can easily add or modify tasks to an existing process.
+You can  map fields via the _Data association_ between tasks. You can also
 selectively chose specific presentations for different tasks, despite the fact
-that they use the same form.**
+that they use the same form.
 
 ### STEP 10: BONUS SECTION:
 
@@ -683,48 +679,45 @@ of our form. You will be more comfortable if you understand the concepts of CSS.
     the stylesheet section. (NOTE: You must be at the form level, NOT clicked on
     a specific field)
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/ac14b9dcaffd4dce9d70ee4b2ee6e0af.png](media/ac14b9dcaffd4dce9d70ee4b2ee6e0af.png)
+![](media/ac14b9dcaffd4dce9d70ee4b2ee6e0af.png)
 
 2.  Click the *upload* button, and choose the *PCS_stylesheet.css* file that you
-    will find here (CP: I need to find how to make that file available on
-    GitHub)
-
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/50cdc30263d96b8ea01fc515cee9381f.png](media/50cdc30263d96b8ea01fc515cee9381f.png)
+    will find here: [link](./dependencies/PCS_stylesheet.css)
+    
+![](media/50cdc30263d96b8ea01fc515cee9381f.png)
 
 3.  Take some time to read the comments in that file. You need to understand the
     difference between affecting an HTML control name, such as *input*, and a
     CSS class, such as *.oj-label*. Note that the CSS classes are prefixed with
     a dot.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/7df9b30663feaa9ec032d3852c373f69.png](media/7df9b30663feaa9ec032d3852c373f69.png)
+![](media/7df9b30663feaa9ec032d3852c373f69.png)
 
-4.  Preview your form by clicking the Form button at the right of CSS. You will
+4.  Preview your form by clicking the **Form** button at the right of CSS. You will
     note that the background has changed to light purple, and the labels to
     orange.
 
 >   NOTE: Don’t laugh, these are the elegant colors of the Swiss guard uniform,
->   designed by Michelangelo in 1510. They are still used today. Also note that
+>   designed by Michelangelo in 1510. They are still in use today. Also note that
 >   the first input field is green, while the others are red, except the money
 >   format, in orange:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/d32715104cc8db78c0df41f5a2bae3d5.jpg](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
+![](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
 
 
 
 However, if you don’t like it, feel free to pick whichever color you prefer. You
-can find a good HTML color picker
-[here](https://www.w3schools.com/colors/colors_picker.asp). Edit the .CSS file,
-save it, and reload the stylesheet in PCS. You will need to click the recycle
+can find a good HTML color picker [here](https://www.w3schools.com/colors/colors_picker.asp). 
+Edit the .CSS file, save it, and reload the stylesheet in PCS. You will need to click the recycle
 bin button first, to remove the existing one.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/bce1f7c793de128b3a7ad54d9243a621.png](media/bce1f7c793de128b3a7ad54d9243a621.png)
+![](media/bce1f7c793de128b3a7ad54d9243a621.png)
 
 
+**KEY LEARNING POINT**: The WebForms tool gives you the ability to alter the
+look&feel of a GUI, based on .CSS files
 
-**KEY LEARNING POINT: The WebForms tool gives you the ability to alter the
-look&feel of a GUI, based on .CSS files**
-
-**Congratulations**! You have successfully completed this lab. 
+**Congratulations**! You have successfully completed this lab! 
 
 For questions or feedback, please contact [Chris
 Peytier](mailto:christophe.claude.peytier@oracle.com) Oracle EMEA Cloud Pursuit
