@@ -437,12 +437,12 @@ We will see how OIC helps us to easily bridge these two worlds.
     down the left pane. Notice that it is static and the values for statuses are
     hard coded.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/d3d90c9c4cde7613589e8c2d4d7c293a.png](media/d3d90c9c4cde7613589e8c2d4d7c293a.png)
+![](media/d3d90c9c4cde7613589e8c2d4d7c293a.png)
 
 3.  Run the form in Preview mode, and open the *country of destination* field to
     see the (static) list of available countries:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/6aaf986330417c942afc6f17e0b2d980.png](media/6aaf986330417c942afc6f17e0b2d980.png)
+![](media/6aaf986330417c942afc6f17e0b2d980.png)
 
 We want to change that in order to get some values dynamically from an
     existing integration. For this:
@@ -451,7 +451,7 @@ We want to change that in order to get some values dynamically from an
 
     2.  In the *Connector* definition, chose *GetCountryList*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/7ef986b74b7d9edc443327dbb7c56807.png](media/7ef986b74b7d9edc443327dbb7c56807.png)
+![](media/7ef986b74b7d9edc443327dbb7c56807.png)
 
 3.  Resource: *Resources*
 
@@ -463,7 +463,7 @@ We want to change that in order to get some values dynamically from an
 
 7.  Value Binding: *name*
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/88d52c5b12617d46aa996feffc98d76a.png](media/88d52c5b12617d46aa996feffc98d76a.png)
+![](media/88d52c5b12617d46aa996feffc98d76a.png)
 
 Save your form and preview it:
 
@@ -474,11 +474,11 @@ Save your form and preview it:
     select field and see a different, more complete, list of available
     countries:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/61774b94eb0a3a222905603e6dcb3f0b.png](media/61774b94eb0a3a222905603e6dcb3f0b.png)
+![](media/61774b94eb0a3a222905603e6dcb3f0b.png)
 
-**KEY LEARNING POINT: OIC binds very tightly Processes and Integrations. You can
+**KEY LEARNING POINT**: OIC binds very tightly Processes and Integrations. You can
 easily leverage the result of an integration within a process, whether a step in
-a process or, like here, to fill a field on a form.**
+a process or, like here, to fill a field on a form.
 
 ### STEP 8: Modifying the Process
 
@@ -494,28 +494,28 @@ a process or, like here, to fill a field on a form.**
 -   Modify the process:
 
 1.  From the BPMN palette on the right, please select a “*Submit*” component in
-    the "*Human*" family:
+    the "*Human*" family: 
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/d37f2f4cfa4a742d22cc55e2ef01e05c.png](media/d37f2f4cfa4a742d22cc55e2ef01e05c.png)
+![](media/d37f2f4cfa4a742d22cc55e2ef01e05c.png)
 
-2.  Drag & drop the “*Submit”* component into the **Employee** SwimLane
+2.  Drag & drop the “Submit” component into the **Employee** SwimLane
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/18491928fed2ab6e352f2bb1ad97a7b3.png](media/18491928fed2ab6e352f2bb1ad97a7b3.png)
+![](media/18491928fed2ab6e352f2bb1ad97a7b3.png)
 
 3.  Click on the arrow that links the blue “Book Travel” Box to the “Completed”
     circle, pick the tip of it and attach it to your new green user task,
     instead:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/1c6161e3f18f8968c4df3128f7e4352d.png](media/1c6161e3f18f8968c4df3128f7e4352d.png)
+![](media/1c6161e3f18f8968c4df3128f7e4352d.png)
 
 4.  Click on your new user task, grab the arrow and link your new User Task to
     the “*Completed*” task
 
 5.  Your process should look like this:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/881ffb262bf09334492671e9a3676ad5.png](media/881ffb262bf09334492671e9a3676ad5.png)
+![](media/881ffb262bf09334492671e9a3676ad5.png)
 
-**Configure the Human Task**
+**Configure the Human Task:**
 
 
 1.  Select the “User task “Component, and chose its name (by double clicking on
@@ -524,7 +524,7 @@ a process or, like here, to fill a field on a form.**
 
 2.  Then, open the properties panel by clicking on the burger menu:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/2eff6aa63c48d464093dbead6bb6d02c.png](media/2eff6aa63c48d464093dbead6bb6d02c.png)
+![](media/2eff6aa63c48d464093dbead6bb6d02c.png)
 
 3.  In the *Form* field, click the magnifying glass and add your form to the
     task (there is only one form: *TravelRequestForm*)
@@ -533,32 +533,32 @@ a process or, like here, to fill a field on a form.**
     Approved*” instead of "*Main*".
 
 5.  In the *Title* field, add a title to your task: Click the expression editor
-    (*fx*) instead of the plain editor (*abc)* :
+    (*fx*) instead of the plain editor (*abc*) :
 
 ![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/c01cb2fe4413843ca80dadca2878b99d.png](media/c01cb2fe4413843ca80dadca2878b99d.png)
 
 6.  In the expression editor, cut-and-paste the following expression: **"Request
     Approved for: [" + TravelRequestForm.firstName + " ]"**
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/27fc8c73ac3c53eba02bc2bcd8a31332.png](media/27fc8c73ac3c53eba02bc2bcd8a31332.png)
+![](media/27fc8c73ac3c53eba02bc2bcd8a31332.png)
 
 7.  Add a description to your task, whichever you like
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/3ba03fca0291555da97be66b9cfabf77.png](media/3ba03fca0291555da97be66b9cfabf77.png)
+![](media/3ba03fca0291555da97be66b9cfabf77.png)
 
 8.  Configure the Data Association. This is a key element to understand: If you
     want a task to inherit values from a previous task, you will need to
     associate the data between them. For this, click on the stacked bar menu at
     the top right of your new task, and choose Data Association:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/459f7d9a6af5b10ebb0779c1fe839f55.png](media/459f7d9a6af5b10ebb0779c1fe839f55.png)
+![](media/459f7d9a6af5b10ebb0779c1fe839f55.png)
 
-9.  Expand the TravelApprovalProcess element on the left, and then do the same
-    for DataObject, and then again for TravelRequestFormDataObject. You will now
+9.  Expand the _TravelApprovalProcess_ element on the left, and then do the same
+    for _DataObject_, and then again for _TravelRequestFormDataObject_. You will now
     see all the "variables" (data object) that have been created by the simple
     fact of creating a form.
 
-10.  On the right, do the same for TravelRequestForm.
+10.  On the right, do the same for _TravelRequestForm_.
 
 11.  We now need to associate the value residing in the data objects
     "*FirstName*", "*LastName*", and "*EstimatedCost*", and map those to the
@@ -571,19 +571,22 @@ a process or, like here, to fill a field on a form.**
 >   You need to drag-and-drop the three variable from the left side to the
 >   matching three variables on the right side.
 
--   FirstName needs to associate with FirstName1
+-   _FirstName_ needs to associate with _FirstName1_
 
--   LastName on the left needs to associate with LastName1
+-   _LastName_ on the left needs to associate with _LastName1_
 
--   EstimatedCost needs to associate with EstimatedCost1
+-   _EstimatedCost_ needs to associate with _EstimatedCost1_
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/0c19a381c8aace7965f6ab1c28e94d5e.png](media/0c19a381c8aace7965f6ab1c28e94d5e.png)
+![h](media/0c19a381c8aace7965f6ab1c28e94d5e.png)
 
 >   Click the *Apply* button on the top right.
 
 >   Save your work.
 
 >   **You have now completed the changes to your process.**
+
+**QUIZZ**: Can you think of a way that could have avoided the need to do this data mapping?
+_ANSWER_: When you created the presentation, you could have gone to the left of the panel, and corrected the 
 
 ### STEP 9: Test your work
 
