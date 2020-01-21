@@ -586,16 +586,16 @@ a process or, like here, to fill a field on a form.
 >   **You have now completed the changes to your process.**
 
 **QUIZZ**: Can you think of a way that could have avoided the need to do this data mapping?
+
 _ANSWER_: When you created the presentation, you could have gone to the left of the panel, and corrected the name of the field that were mapped: instead of _First Name_ mapped to **FirstName1**, you could have mapped it to the existing field **FirstName**. This would have avoided the need to map fields in the Data Association part, because the same variable (_FirstName_, etc.) would have been used for **both** the _Default_ presentation as well as your _TravelApproved_ presentation
 
 ### STEP 9: Test your work
 
+1.  Clicke the _Test_ button (top right)
+2.  Activate your application (top right button). This means that it is published to the "test"
+    repository:
 
-1.  Test and Activate it. This means that it is published to the "test"
-    repository. You need to a) click the *Test* button, and b) click the
-    *Activate* button on the top right:
-
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/205d662e99adde50161cc43ed687876a.png](media/205d662e99adde50161cc43ed687876a.png)
+![](media/205d662e99adde50161cc43ed687876a.png)
 
 2.  Notice that an intermediate window will appear, with an option to "Add you
     to all roles". By default, this box is checked. This will be a convenient
@@ -603,26 +603,30 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
     having to logout and login again with different credentials, when we test
     our application.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/00c8e8b8ff2a720db8de9b76e91868c9.png](media/00c8e8b8ff2a720db8de9b76e91868c9.png)
+![](media/00c8e8b8ff2a720db8de9b76e91868c9.png)
 
 3.  You are now ready to test you application. Click the *Try in Test mode*
     button:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/c66b49a81293f1be03fe843d5780bf9b.png](media/c66b49a81293f1be03fe843d5780bf9b.png)
+![](media/c66b49a81293f1be03fe843d5780bf9b.png)
 
 4.  This will bring you to the workspace that a "normal" user would see, and
     from there you can start your application by clicking the round icon
     corresponding to it:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/380eb98871199d28fa8f514778b30a5a.png](media/380eb98871199d28fa8f514778b30a5a.png)
+![](media/380eb98871199d28fa8f514778b30a5a.png)
 
-5.  The main form will appear. Fill the fields and click Submit. NOTE: You may
-    remember that if you enter a total amount of less than 2000\$, the
+    Notive that on a shared environment there could be several deployed application, since you are all sharing
+    the same testing environment. If you have doubts on which is actually your application, you can float over the roind icon
+    and you should see the complete name of the application appear.
+
+5.  The main form will appear. Fill the fields and click Submit.
+    NOTE: Remember that if you enter a total amount of less than 2000$, the
     "justification" field will disappear when you tab out.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/7e50a3f43ddce91af53b0a183fbdb609.png](media/7e50a3f43ddce91af53b0a183fbdb609.png)
+![](media/7e50a3f43ddce91af53b0a183fbdb609.png)
 
-6.  Click the "My Task" icon on the black pane on the left. This will show that
+6.  Click the **"My Task"** icon on the black pane on the left. This will show that
     you have a task waiting for you.
 
 >   **Note:** Because we are in test mode, we have been given access to all the
@@ -632,25 +636,25 @@ _ANSWER_: When you created the presentation, you could have gone to the left of 
 >   convenience reasons, otherwise we would need to log off , and login again
 >   with different credentials in order to see our pending task.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/94c1f7b4a6c5095582c8ee45994c7e21.png](media/94c1f7b4a6c5095582c8ee45994c7e21.png)
+![](media/94c1f7b4a6c5095582c8ee45994c7e21.png)
 
 7.  Double-click on the task to open it. You should see the details of the
     travel request. For the fun of it, add a comment to explain why you will
     approve, remember to click the **Post Comment** button
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/6afaeff791da0de20be438c823f426ab.png](media/6afaeff791da0de20be438c823f426ab.png)
+![](media/6afaeff791da0de20be438c823f426ab.png)
 
-8.  Click the *Approve* button at the top.
+8.  Click the **Approve** button at the top.
 
-9.  We now expect a task to be in the "sender" task list, confirming that the
-    travel has been approved. Click on the "Previous" arrow on the top left.
+9.  We now expect a task to be in the "Initiator" task list, confirming that the
+    travel has been approved. Click on the _"Previous"_ icon on the top right.
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/c8cbff60945b8d44b4080b932faa418c.png](media/c8cbff60945b8d44b4080b932faa418c.png)
+![](media/c8cbff60945b8d44b4080b932faa418c.png)
 
 10.  Click "My Tasks", then open the Workspace. The button is not easy to spot!
     It's on the top, at the right of the blue band:
 
-![https://github.com/cpeytier/new_OIC_Process_labs/raw/master/media/2aec0e1ded7afbbeb968d875c480b2f9.png](media/2aec0e1ded7afbbeb968d875c480b2f9.png)
+![](media/2aec0e1ded7afbbeb968d875c480b2f9.png)
 
 11.  You will then see, as expected, the task confirming that your trip has been
     approved. Double-click on it, and you should see the details, with the new
