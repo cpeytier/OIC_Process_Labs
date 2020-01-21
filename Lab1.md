@@ -110,24 +110,24 @@ First, we are going to create our own Space, this will allow us to shield from
 other users. This is specially useful if you are sharing your OIC instance with
 other participants
 
-1.  Click on the *Spaces* tab, from the left pane
+3.  Click on the *Spaces* tab, from the left pane
 
-2.  In the right corner of the blue band, click **Create**
+4.  In the right corner of the blue band, click **Create**
 
-3.  Name it the way you like. NOTE: if you are on a shard environment, **:
+5.  Name it the way you like. NOTE: if you are on a shard environment, **:
     MySpaceXX (Note :** XX is your personal identifier given by the instructor)
 
 ![](media/5f2371d3a1e0a24cfb4e12290a55d5df.png)
 
-4.  Return to the *Process Application* tab.
+6.  Return to the *Process Application* tab.
 
-5.  In the right corner of the top blue band, Click **Create**
+7.  In the right corner of the top blue band, Click **Create**
 
-6.  Choose *Start with QuickStart*
+8.  Choose *Start with QuickStart*
 
 ![](media/6418e3a1f1872f98ffe96f90854a3131.png)
 
-7.  Select the *Travel Approval* application Quickstart template (bottom right) by clicking
+9.  Select the *Travel Approval* application Quickstart template (bottom right) by clicking
     **Create**
 
 >   **Name:** We recommend the name: *XXTravelApp* where *XX is your initials*, particularly in the case where you work on a shared environment
@@ -137,7 +137,7 @@ other participants
 
 ![](media/796d3611042358c83dcf643f95d7eef4.png)
 
-8.  Click **Create**
+10.  Click **Create**
 
 When the application has been created, you will see a screen where you can
 configure a variety of choices. This is for business users who can customize the
@@ -147,7 +147,7 @@ you need to click on *“Switch to Application View”* (top right)
 
 ![](media/ac1abd13768270bc80cc101d56a6325a.png)
 
-9.  You will see the detailed components of your application in the left pane of
+11.  You will see the detailed components of your application in the left pane of
     this Process builder tool. You can see that the "first class citizens" of a process application are:
     *processes*, *forms* (the GUI), *business types* (to define business
     objects), *Decisions* (to create rules), *Integrations* (to link with
@@ -155,12 +155,12 @@ you need to click on *“Switch to Application View”* (top right)
 
 ![](media/b33f749d7883a74a524e01e5f972edd0.png)
 
-7.  Note: Depending on the versions, it could rather be with the components on
+12.  Note: Depending on the versions, it could rather be with the components on
     the right, in a drop-down list:
 
 ![](media/25b5cba12296df08dd3e609198740e05.png)
 
-10.  Open the *Travel Approval* process by clicking on it.
+13.  Open the *Travel Approval* process by clicking on it.
 
 -   In the next section we will learn how to configure it.
 
