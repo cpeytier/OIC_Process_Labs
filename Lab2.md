@@ -126,8 +126,8 @@ Open the Decision model you just imported, and study it. The "days before Travel
     In order to make this rule callable from "the outside" , a Service Interface had
     to be created. Study how it is defined by expanding the left section, then
 
-5.  Expand the section on the left by clicking the expand sign next to the “+”
-    sign on the left, in the **Services** pane.
+5.  Expand the section on the left by clicking the expand sign  (**>**) on top of the 
+    **Services** pane, on the left side.
 
 6.  Expand the *TravelDecisions* Service
 
@@ -150,8 +150,8 @@ Open the Decision model you just imported, and study it. The "days before Travel
 
 2.  Enter values for all the required field:
 
-    a.  Dates should be entered in the form **“2019-11-29”** for November 29th,
-        2019 (*with* the double quotes). Enter a date interval of more than 15
+    a.  Dates should be entered in the form **“2020-11-29”** for November 29th,
+        2020 (*with* the double quotes). Enter a date interval of more than 15
         days
 
     b.  Enter an amount of 500€
@@ -233,7 +233,7 @@ to be able to leverage this rule, it needs to be pointed at.
 
 2.  Click on _Decisions_, on the black left pane.
 
-3.  Click the _Create_ blue button on the right, then click the blue button "link to a decision model"
+3.  Click the _Create_ blue button on the right, then click the blue button "Use a decision model"
 
 4.  Choose your decision model , and click _Use_
 
@@ -286,7 +286,9 @@ This rule is now known to your application, and can be leveraged.
 
 8.  Map the fields from the **newWebForm** with the four required field of the AutoApproved Decision.
 
-9.  **NOTE**: Map **CurrentDate** to the value *‘now’* (with single quotes).
+9.  **NOTE**: Map **CurrentDate** to the value *'now'* (with single quotes). WARNING: Some keyboards will 
+    not give the proper single quotes, resulting in an error. Make sure you use the correct single quote (ASCII 39) 
+    or cut-and-paste the 'now' here.
 
 10.  Your mapping should look like this:
 
