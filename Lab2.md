@@ -292,34 +292,34 @@ This rule is now known to your application, and can be leveraged.
 
 10.  Your mapping should look like this:
 
-    ![](media/6207508fe7c9947e25a8029cc6313afa.png)
+   ![](media/6207508fe7c9947e25a8029cc6313afa.png)
 
 12.  Map the Output field Data Association: Click the **Output** tab on the top left, and add a new Data object by
      clicking the blue “**+**” on the right.
      
-    ![](media/860f1432b90c08dc4efbe30e2ef56d42.png)
+   ![](media/860f1432b90c08dc4efbe30e2ef56d42.png)
     
-    NOTE: the "+" sign may be grayed out and you have to click on Process Data before it can become active (blue):
+   NOTE: the "+" sign may be grayed out and you have to click on Process Data before it can become active (blue):
      
-    ![](media/MapDO.png)
+   ![](media/MapDO.png)
 
 
 13.  Add a new **Data object** of type *Boolean*, name it
     *autoApprovedDataObject*. (NOTE: the name has to start with a lowercase
     letter).
 
-    ![](media/e560a653e7618af67691f8d4b9a0929c.png)
+   ![](media/e560a653e7618af67691f8d4b9a0929c.png)
 
 14.  Map the output of the Decision Model task (the **Interpretation** field) to
     this newly created DataObject:
 
-    ![](media/590fa90b88c1dcfaec2b11f926be63eb.png)
+   ![](media/590fa90b88c1dcfaec2b11f926be63eb.png)
 
 15.  Click the **Apply** button.
 
 16.  Add the Gateway condition: Select the gateway branch that goes to Book travel, and edit it.
 
-    ![](media/916d52a91a1605a48812d765be64d5a4.png)
+   ![](media/916d52a91a1605a48812d765be64d5a4.png)
 
 17.  Edit the condition for the gateway by clicking the pencil on the right.
 
