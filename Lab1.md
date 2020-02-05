@@ -194,9 +194,6 @@ predefined integrations
     -   In the middle, you have the **Canvas**. This is where you will organize your
     form using Drag & Drop.
 
-    >   **HINT**: Take some time to look at the various components you can use, on
-    >   that palette
-
     -   On the right, you have the **Palette** screen. This is where you will take
     all your components from
 
