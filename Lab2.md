@@ -112,7 +112,7 @@ Open the Decision model you just imported, and study it. The "days before Travel
 
 3.  Click the white on blue “V” sign to expand the *Auto Approval* Decision Table
 
-    ![](media/AutoApprovedDecisionTable.png)
+    ![](media/AutoApprovedDecisionTable.jpg)
 
 4.  See how it is designed, in order to meet the following decision rules:
 
