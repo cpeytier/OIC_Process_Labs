@@ -296,8 +296,13 @@ This rule is now known to your application, and can be leveraged.
 
 12.  Map the Output field Data Association: Click the **Output** tab on the top left, and add a new Data object by
      clicking the blue “**+**” on the right.
-
+     
     ![](media/860f1432b90c08dc4efbe30e2ef56d42.png)
+    
+    NOTE: the "+" sign may be grayed out and you have to click on Process Data before it can become active (blue):
+     
+    ![](media/MapDO.png)
+
 
 13.  Add a new **Data object** of type *Boolean*, name it
     *autoApprovedDataObject*. (NOTE: the name has to start with a lowercase
