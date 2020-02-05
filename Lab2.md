@@ -110,7 +110,7 @@ Open the Decision model you just imported, and study it. The "days before Travel
 
     **Study the Decision Table**
 
-3.  Click the white on blue “V” sign to expand the *Auto Approval* Decision Table
+3.  Click the white on blue “V” sign to expand the *AutoApproved* Decision Table
 
     ![](media/AutoApprovedDecisionTable.jpg)
 
