@@ -182,7 +182,7 @@ predefined integrations
     black panel, choose *Forms* and open the *TravelRequestForm*.
 
     -   Note: depending on the version of the tool, the components could be visible
-    from a drop-down list on the right:
+    from a drop-down list on the right, in which case you would have to open the form as shown below:
 
     ![](media/25b5cba12296df08dd3e609198740e05.png)
 
