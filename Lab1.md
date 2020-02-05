@@ -266,7 +266,7 @@ go to the **Properties** pane on the left and:
 
 5.  Choose the control name “justification”
 
-6.  Select the action to “*Hide*”
+6.  Select the action to “*Hide*”, then the **+else Action** to show.
 
     ![](media/89150243b52e2a1ce662b65461cc602b.png)
 
