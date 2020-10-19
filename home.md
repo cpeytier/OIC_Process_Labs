@@ -4,9 +4,10 @@ This hands-on workshop supplements live presentations and demos
 in order to give you a concrete experience of using some of our solutions.
 
 No expertise or previous experience is required.
+NOTE: If you already have access to an Oracle Integration Cloud environment, you can skip this first step and go directly to the next.
 
 \#\# Step 1: Request an Oracle Cloud Trial or Workshop Account
-NOTE: If you already have access to an Oracle Integration Cloud environment, you can skip this first step and go directly to the next.
+
 \- Open this
 [link](https://myservices.us.oraclecloud.com/mycloud/signup?sourceType=:eng:eo:ie::RC_EMMK190614P00070:Labsteps)
 to create a Trial Account
