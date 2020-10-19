@@ -371,7 +371,7 @@ We will see how OIC helps us to easily bridge these two worlds.
 
 1.  From the _Home_ screen of OIC, go to _Integration_
 
-2.  Search the *GetCountry* integration. It may already have been imported by someone
+2.  Search the *GetCountryList* integration. It may already have been imported by someone
     else doing the same lab as you. If this is the case, *you can skip the rest of this paragraph* and go
     directly to "STEP 7: Make the integration known to your Process Application".
 
