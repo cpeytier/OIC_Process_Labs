@@ -1,7 +1,8 @@
-This hands-on, instructor-led workshop supplements live presentations and demos
+This hands-on workshop supplements live presentations and demos
 in order to give you a concrete experience of using some of our solutions.
 
 No expertise or previous experience is required.
+NOTE: If you already have access to an Oracle Integration Cloud environment, you can skip this first step and go directly to the next.
 
 \#\# Step 1: Request an Oracle Cloud Trial or Workshop Account
 
