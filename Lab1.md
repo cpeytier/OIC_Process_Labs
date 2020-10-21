@@ -665,8 +665,9 @@ of our form. You will be more comfortable if you understand the concepts of CSS.
 
     ![](media/ac14b9dcaffd4dce9d70ee4b2ee6e0af.png)
 
-2.  Click the *upload* button, and choose the *PCS_stylesheet.css* file that you
-    will find here: [link](./dependencies/PCS_stylesheet.css)
+2.   Copy the content of a CSS Stylesheet that you will find here: [link](./dependencies/PCS_stylesheet.css)
+     Paste that content in a file of your choice on your PC (You can create a file with your notepad editor) 
+     Then Click the *upload* button, and pick the file you just created.
     
     ![](media/50cdc30263d96b8ea01fc515cee9381f.png)
 
