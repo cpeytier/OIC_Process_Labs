@@ -97,7 +97,9 @@ There are essentially three key components in OIC:
 ![](media/022e18c04029309a71f8e907c5d9ab80.png)
 
 1.  From the main **Home** page, you can see all the components that constitute
-    the OICS solution, such as Integration, Process and Visual Builder.
+    the OICS solution, such as Integration, Process and Visual Builder. 
+    
+    NOTE: You may have to click on the "burger" menu (the three stacked bars) on the top left corner, to see these components
 
 2.  We will focus on building processes, therefore click on the *Processes*
     tab on the left pane
