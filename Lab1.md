@@ -681,20 +681,20 @@ of our form. You will be more comfortable if you understand the concepts of CSS.
 4.  Preview your form by clicking the **Form** button at the right of CSS. You will
     note that the background has changed to light purple, and the labels to
     orange.
-    ![](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
+    ![](media/bce1f7c793de128b3a7ad54d9243a621.png)
 
 >   NOTE: Don’t laugh, these are the elegant colors of the Swiss guard uniform,
 >   designed by Michelangelo in 1510. They are still in use today. Also note that
 >   the first input field is green, while the others are red, except the money
 >   format, in orange:
-
+   ![](media/d32715104cc8db78c0df41f5a2bae3d5.jpg)
     
   However, if you don’t like it, feel free to pick whichever color you prefer. You
   can find a good HTML color picker [here](https://www.w3schools.com/colors/colors_picker.asp). 
   Edit the .CSS file, save it, and reload the stylesheet in PCS. You will need to click the recycle
   bin button first, to remove the existing one.
   
-  ![](media/bce1f7c793de128b3a7ad54d9243a621.png)
+
 
 
 **KEY LEARNING POINT**: The WebForms tool gives you the ability to alter the
