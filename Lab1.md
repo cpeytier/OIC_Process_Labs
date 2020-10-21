@@ -443,11 +443,11 @@ We will see how OIC helps us to easily bridge these two worlds.
 
     ![](media/7ef986b74b7d9edc443327dbb7c56807.png)
 
-10.  Resource: *Resources*
+10.  Resource: */CountryList*
 
-11.  Operation: *GetResources*
+11.  Operation: *Get*
 
-12.  Response: Option list: *response.result*
+12.  Response: List to filter: *response.result*
 
 13.  Label Binding: *name*
 
